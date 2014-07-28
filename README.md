@@ -1,4 +1,4 @@
-whereisarcturus
+arcturus
 ===============
 
 Working with Daniel at sailawaywebdesign.com to develop an iOS application to display and show off his travels by sailboat around the work.
