@@ -1,0 +1,15 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, "7.0"
+
+target "arcturus" do
+
+pod 'AFNetworking', '~> 2.2'
+pod 'MagicalRecord'
+pod 'MBProgressHUD', '~> 0.8'
+
+end
+
+target "arcturusTests" do
+
+end
+
