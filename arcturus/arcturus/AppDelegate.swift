@@ -16,7 +16,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
+
         // Override point for customization after application launch.
+
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+
+        // Setup mapViewController
+
+        let mapViewController = MapViewController(nibName: nil, bundle: nil)
+
+        let mapNavigationController = UINavigationController(rootViewController: mapViewController)
+
+        // Setup menuNavigationController
+        // TODO Create Menu/Settings for App
+        let menuViewController = UIViewController(nibName: nil, bundle: nil)
+
+        menuViewController.view.backgroundColor = UIColor.blueColor()
+
+        let slidingPanelViewController = MSSlidingPanelController(centerViewController: mapNavigationController, andLeftPanelController: menuViewController)
+
+        self.window!.rootViewController = slidingPanelViewController
+
+        self.window!.makeKeyAndVisible()
+
         return true
     }
 

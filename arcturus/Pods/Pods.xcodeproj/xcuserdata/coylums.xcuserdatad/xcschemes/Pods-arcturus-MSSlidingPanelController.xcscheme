@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "949E9DCB46924AA7AE6F3C7D"
-               BuildableName = "libPods-arcturus.a"
-               BlueprintName = "Pods-arcturus"
+               BlueprintIdentifier = "50E9D5975B9646BC84F49856"
+               BuildableName = "libPods-arcturus-MSSlidingPanelController.a"
+               BlueprintName = "Pods-arcturus-MSSlidingPanelController"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

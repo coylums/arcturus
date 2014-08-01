@@ -5,3 +5,4 @@
 #import "MBProgressHUD.h"
 #import "CoreData+MagicalRecord.h"
 #import "AFNetworking.h"
+#import "MSSlidingPanelController.h"

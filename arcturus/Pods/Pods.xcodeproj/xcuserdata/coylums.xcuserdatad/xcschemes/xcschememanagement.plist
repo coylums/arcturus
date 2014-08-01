@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-arcturus-MSSlidingPanelController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-arcturus-MagicalRecord.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>06F9115023C54C1B9B289563</key>
+		<key>4A76475C83E64D039DF65252</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>103E53089165490AAE8F01CA</key>
+		<key>50E9D5975B9646BC84F49856</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>79E069E32FA243EFA6F42524</key>
+		<key>5C392730DB274655AF2014BA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>975B4990BFA64C12AB58F59F</key>
+		<key>949E9DCB46924AA7AE6F3C7D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A30FB33C97D94E5DBF498880</key>
 		<dict>
 			<key>primary</key>
 			<true/>

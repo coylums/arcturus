@@ -54,6 +54,12 @@
 #define COCOAPODS_VERSION_MINOR_MBProgressHUD 8
 #define COCOAPODS_VERSION_PATCH_MBProgressHUD 0
 
+// MSSlidingPanelController
+#define COCOAPODS_POD_AVAILABLE_MSSlidingPanelController
+#define COCOAPODS_VERSION_MAJOR_MSSlidingPanelController 1
+#define COCOAPODS_VERSION_MINOR_MSSlidingPanelController 3
+#define COCOAPODS_VERSION_PATCH_MSSlidingPanelController 4
+
 // MagicalRecord
 #define COCOAPODS_POD_AVAILABLE_MagicalRecord
 #define COCOAPODS_VERSION_MAJOR_MagicalRecord 2

@@ -6,6 +6,7 @@ target "arcturus" do
 pod 'AFNetworking', '~> 2.2'
 pod 'MagicalRecord'
 pod 'MBProgressHUD', '~> 0.8'
+pod 'MSSlidingPanelController'
 
 end
 
