@@ -8,13 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		8C4E11BC18424C2F93F26728 /* libPods-arcturus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2956DA7C69C6406188FEC7EC /* libPods-arcturus.a */; settings = {ATTRIBUTES = (Required, ); }; };
-		FBBBE64D198A78B80014A7DC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBBE64C198A78B80014A7DC /* MapViewController.swift */; };
-		FBBBE64F198A78D30014A7DC /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBBE64E198A78D30014A7DC /* Log.swift */; };
+		FB6C5C60198F0E3A00C71EC8 /* menu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6C5C5E198F0E3A00C71EC8 /* menu-icon.png */; };
+		FB6C5C61198F0E3A00C71EC8 /* menu-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6C5C5F198F0E3A00C71EC8 /* menu-icon@2x.png */; };
+		FB9D9BE0198DCC9900C8C90F /* LogBookDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D9BDF198DCC9900C8C90F /* LogBookDataProtocol.swift */; };
+		FB9D9BE2198DD21400C8C90F /* LogFileDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D9BE1198DD21400C8C90F /* LogFileDataService.swift */; };
+		FB9D9BE4198DD63700C8C90F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D9BE3198DD63700C8C90F /* SwiftyJSON.swift */; };
+		FBB30537198D203C006D7AB5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB30535198D203C006D7AB5 /* MapViewController.swift */; };
+		FBB30538198D203C006D7AB5 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB30536198D203C006D7AB5 /* MenuViewController.swift */; };
+		FBB3053B198D217E006D7AB5 /* LogEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB3053A198D217E006D7AB5 /* LogEntry.swift */; };
+		FBB30556198D26C1006D7AB5 /* logbook.json in Resources */ = {isa = PBXBuildFile; fileRef = FBB30553198D26C1006D7AB5 /* logbook.json */; };
+		FBB30559198D2BF0006D7AB5 /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB30558198D2BF0006D7AB5 /* LocationHelper.swift */; };
+		FBB30561198D639C006D7AB5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB3055F198D639C006D7AB5 /* Default.png */; };
+		FBB30562198D639C006D7AB5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB30560198D639C006D7AB5 /* Default@2x.png */; };
+		FBB30564198DA12D006D7AB5 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB30563198DA12D006D7AB5 /* Icon-60@2x.png */; };
+		FBB30566198DA18C006D7AB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB30565198DA18C006D7AB5 /* Images.xcassets */; };
 		FBBBE652198A78E20014A7DC /* arcturus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBBBE650198A78E20014A7DC /* arcturus.xcdatamodeld */; };
-		FBBBE655198B585B0014A7DC /* menu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBBE654198B585B0014A7DC /* menu-icon.png */; };
-		FBBBE657198B58620014A7DC /* menu-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBBE656198B58620014A7DC /* menu-icon@2x.png */; };
+		FBD418EF198E937400B11E57 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD418EE198E937400B11E57 /* DateHelper.swift */; };
+		FBD418F3198EC9F800B11E57 /* annotation.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD418F2198EC9F800B11E57 /* annotation.png */; };
+		FBD418F5198EF37800B11E57 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD418F4198EF37800B11E57 /* UIHelper.swift */; };
+		FBD418F7198EF3B300B11E57 /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD418F6198EF3B300B11E57 /* StringHelper.swift */; };
 		FBE7DD5A19873D2D001EDF86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE7DD5919873D2D001EDF86 /* AppDelegate.swift */; };
-		FBE7DD5F19873D2D001EDF86 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE7DD5E19873D2D001EDF86 /* MenuViewController.swift */; };
 		FBE7DD7019873D2D001EDF86 /* arcturusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE7DD6F19873D2D001EDF86 /* arcturusTests.swift */; };
 		FBE7DD7E1987A871001EDF86 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE7DD7D1987A871001EDF86 /* CoreData.framework */; };
 		FBE7DD801987A87B001EDF86 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE7DD7F1987A87B001EDF86 /* MapKit.framework */; };
@@ -34,16 +47,29 @@
 /* Begin PBXFileReference section */
 		2956DA7C69C6406188FEC7EC /* libPods-arcturus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-arcturus.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		788BFC914A024885850A9728 /* Pods-arcturus.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-arcturus.xcconfig"; path = "Pods/Pods-arcturus.xcconfig"; sourceTree = "<group>"; };
-		FBBBE64C198A78B80014A7DC /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		FBBBE64E198A78D30014A7DC /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		FB6C5C5E198F0E3A00C71EC8 /* menu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon.png"; sourceTree = "<group>"; };
+		FB6C5C5F198F0E3A00C71EC8 /* menu-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon@2x.png"; sourceTree = "<group>"; };
+		FB9D9BDF198DCC9900C8C90F /* LogBookDataProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogBookDataProtocol.swift; sourceTree = "<group>"; };
+		FB9D9BE1198DD21400C8C90F /* LogFileDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogFileDataService.swift; path = Arcturus/DataServices/LogFileDataService.swift; sourceTree = SOURCE_ROOT; };
+		FB9D9BE3198DD63700C8C90F /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		FBB30535198D203C006D7AB5 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		FBB30536198D203C006D7AB5 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		FBB3053A198D217E006D7AB5 /* LogEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogEntry.swift; sourceTree = "<group>"; };
+		FBB30553198D26C1006D7AB5 /* logbook.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; lineEnding = 0; path = logbook.json; sourceTree = "<group>"; };
+		FBB30558198D2BF0006D7AB5 /* LocationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
+		FBB3055F198D639C006D7AB5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FBB30560198D639C006D7AB5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FBB30563198DA12D006D7AB5 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		FBB30565198DA18C006D7AB5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FBBBE651198A78E20014A7DC /* arcturus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = arcturus.xcdatamodel; sourceTree = "<group>"; };
-		FBBBE654198B585B0014A7DC /* menu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon.png"; sourceTree = "<group>"; };
-		FBBBE656198B58620014A7DC /* menu-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon@2x.png"; sourceTree = "<group>"; };
-		FBE7DD5419873D2D001EDF86 /* arcturus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arcturus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD418EE198E937400B11E57 /* DateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateHelper.swift; path = Arcturus/Helpers/DateHelper.swift; sourceTree = SOURCE_ROOT; };
+		FBD418F2198EC9F800B11E57 /* annotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = annotation.png; path = Arcturus/Assets/Images/annotation.png; sourceTree = SOURCE_ROOT; };
+		FBD418F4198EF37800B11E57 /* UIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIHelper.swift; path = Arcturus/Helpers/UIHelper.swift; sourceTree = SOURCE_ROOT; };
+		FBD418F6198EF3B300B11E57 /* StringHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringHelper.swift; path = Arcturus/Helpers/StringHelper.swift; sourceTree = SOURCE_ROOT; };
+		FBE7DD5419873D2D001EDF86 /* Arcturus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arcturus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE7DD5819873D2D001EDF86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBE7DD5919873D2D001EDF86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FBE7DD5E19873D2D001EDF86 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		FBE7DD6919873D2D001EDF86 /* arcturusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = arcturusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE7DD6919873D2D001EDF86 /* ArcturusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcturusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE7DD6E19873D2D001EDF86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBE7DD6F19873D2D001EDF86 /* arcturusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arcturusTests.swift; sourceTree = "<group>"; };
 		FBE7DD7A1987A5C0001EDF86 /* arcturus-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "arcturus-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -85,37 +111,78 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FBBBE649198A74B40014A7DC /* DataServices */ = {
+		FB9D9BDE198DCBA900C8C90F /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				FB9D9BDF198DCC9900C8C90F /* LogBookDataProtocol.swift */,
 			);
-			name = DataServices;
+			name = Protocols;
+			path = Arcturus/Protocols;
+			sourceTree = SOURCE_ROOT;
+		};
+		FBB30534198D203C006D7AB5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FBB30535198D203C006D7AB5 /* MapViewController.swift */,
+				FBB30536198D203C006D7AB5 /* MenuViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		FBBBE64A198A74BD0014A7DC /* Entities */ = {
+		FBB30539198D217E006D7AB5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				FBBBE64E198A78D30014A7DC /* Log.swift */,
+				FBB3053A198D217E006D7AB5 /* LogEntry.swift */,
 			);
-			name = Entities;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		FBBBE64B198A74C70014A7DC /* ViewControllers */ = {
+		FBB3054E198D26C1006D7AB5 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				FBBBE64C198A78B80014A7DC /* MapViewController.swift */,
-				FBE7DD5E19873D2D001EDF86 /* MenuViewController.swift */,
+				FBB3054F198D26C1006D7AB5 /* Images */,
+				FBB30552198D26C1006D7AB5 /* JSON */,
 			);
-			name = ViewControllers;
+			path = Assets;
 			sourceTree = "<group>";
 		};
-		FBBBE653198B57CC0014A7DC /* images */ = {
+		FBB3054F198D26C1006D7AB5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				FBBBE656198B58620014A7DC /* menu-icon@2x.png */,
-				FBBBE654198B585B0014A7DC /* menu-icon.png */,
+				FB6C5C5E198F0E3A00C71EC8 /* menu-icon.png */,
+				FB6C5C5F198F0E3A00C71EC8 /* menu-icon@2x.png */,
+				FBD418F2198EC9F800B11E57 /* annotation.png */,
+				FBB30563198DA12D006D7AB5 /* Icon-60@2x.png */,
 			);
-			name = images;
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FBB30552198D26C1006D7AB5 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				FBB30553198D26C1006D7AB5 /* logbook.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		FBB30557198D2B7A006D7AB5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FB9D9BE3198DD63700C8C90F /* SwiftyJSON.swift */,
+				FBB30558198D2BF0006D7AB5 /* LocationHelper.swift */,
+				FBD418EE198E937400B11E57 /* DateHelper.swift */,
+				FBD418F4198EF37800B11E57 /* UIHelper.swift */,
+				FBD418F6198EF3B300B11E57 /* StringHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FBB3055A198D3803006D7AB5 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				FB9D9BE1198DD21400C8C90F /* LogFileDataService.swift */,
+			);
+			path = DataServices;
 			sourceTree = "<group>";
 		};
 		FBE7DD4B19873D2D001EDF86 = {
@@ -123,7 +190,6 @@
 			children = (
 				FBE7DD5619873D2D001EDF86 /* arcturus */,
 				FBE7DD6C19873D2D001EDF86 /* arcturusTests */,
-				FBBBE653198B57CC0014A7DC /* images */,
 				FBE7DD5519873D2D001EDF86 /* Products */,
 				788BFC914A024885850A9728 /* Pods-arcturus.xcconfig */,
 				B89F5BC3926940EAAFD939A8 /* Frameworks */,
@@ -134,8 +200,8 @@
 		FBE7DD5519873D2D001EDF86 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FBE7DD5419873D2D001EDF86 /* arcturus.app */,
-				FBE7DD6919873D2D001EDF86 /* arcturusTests.xctest */,
+				FBE7DD5419873D2D001EDF86 /* Arcturus.app */,
+				FBE7DD6919873D2D001EDF86 /* ArcturusTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,11 +209,17 @@
 		FBE7DD5619873D2D001EDF86 /* arcturus */ = {
 			isa = PBXGroup;
 			children = (
-				FBBBE649198A74B40014A7DC /* DataServices */,
-				FBBBE64A198A74BD0014A7DC /* Entities */,
-				FBBBE64B198A74C70014A7DC /* ViewControllers */,
+				FB9D9BDE198DCBA900C8C90F /* Protocols */,
+				FBB3055F198D639C006D7AB5 /* Default.png */,
+				FBB30560198D639C006D7AB5 /* Default@2x.png */,
+				FBB3055A198D3803006D7AB5 /* DataServices */,
+				FBB3054E198D26C1006D7AB5 /* Assets */,
+				FBB30534198D203C006D7AB5 /* Controllers */,
+				FBB30557198D2B7A006D7AB5 /* Helpers */,
+				FBB30539198D217E006D7AB5 /* Models */,
 				FBE7DD5919873D2D001EDF86 /* AppDelegate.swift */,
 				FBBBE650198A78E20014A7DC /* arcturus.xcdatamodeld */,
+				FBB30565198DA18C006D7AB5 /* Images.xcassets */,
 				FBE7DD5719873D2D001EDF86 /* Supporting Files */,
 			);
 			path = arcturus;
@@ -181,9 +253,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FBE7DD5319873D2D001EDF86 /* arcturus */ = {
+		FBE7DD5319873D2D001EDF86 /* Arcturus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBE7DD7319873D2D001EDF86 /* Build configuration list for PBXNativeTarget "arcturus" */;
+			buildConfigurationList = FBE7DD7319873D2D001EDF86 /* Build configuration list for PBXNativeTarget "Arcturus" */;
 			buildPhases = (
 				23F70C87E11344D49161700E /* Check Pods Manifest.lock */,
 				FBE7DD5019873D2D001EDF86 /* Sources */,
@@ -195,14 +267,14 @@
 			);
 			dependencies = (
 			);
-			name = arcturus;
+			name = Arcturus;
 			productName = arcturus;
-			productReference = FBE7DD5419873D2D001EDF86 /* arcturus.app */;
+			productReference = FBE7DD5419873D2D001EDF86 /* Arcturus.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FBE7DD6819873D2D001EDF86 /* arcturusTests */ = {
+		FBE7DD6819873D2D001EDF86 /* ArcturusTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBE7DD7619873D2D001EDF86 /* Build configuration list for PBXNativeTarget "arcturusTests" */;
+			buildConfigurationList = FBE7DD7619873D2D001EDF86 /* Build configuration list for PBXNativeTarget "ArcturusTests" */;
 			buildPhases = (
 				FBE7DD6519873D2D001EDF86 /* Sources */,
 				FBE7DD6619873D2D001EDF86 /* Frameworks */,
@@ -213,9 +285,9 @@
 			dependencies = (
 				FBE7DD6B19873D2D001EDF86 /* PBXTargetDependency */,
 			);
-			name = arcturusTests;
+			name = ArcturusTests;
 			productName = arcturusTests;
-			productReference = FBE7DD6919873D2D001EDF86 /* arcturusTests.xctest */;
+			productReference = FBE7DD6919873D2D001EDF86 /* ArcturusTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -236,7 +308,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FBE7DD4F19873D2D001EDF86 /* Build configuration list for PBXProject "arcturus" */;
+			buildConfigurationList = FBE7DD4F19873D2D001EDF86 /* Build configuration list for PBXProject "Arcturus" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -249,8 +321,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FBE7DD5319873D2D001EDF86 /* arcturus */,
-				FBE7DD6819873D2D001EDF86 /* arcturusTests */,
+				FBE7DD5319873D2D001EDF86 /* Arcturus */,
+				FBE7DD6819873D2D001EDF86 /* ArcturusTests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,8 +332,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBBBE657198B58620014A7DC /* menu-icon@2x.png in Resources */,
-				FBBBE655198B585B0014A7DC /* menu-icon.png in Resources */,
+				FB6C5C61198F0E3A00C71EC8 /* menu-icon@2x.png in Resources */,
+				FBB30566198DA18C006D7AB5 /* Images.xcassets in Resources */,
+				FBB30562198D639C006D7AB5 /* Default@2x.png in Resources */,
+				FBD418F3198EC9F800B11E57 /* annotation.png in Resources */,
+				FBB30556198D26C1006D7AB5 /* logbook.json in Resources */,
+				FB6C5C60198F0E3A00C71EC8 /* menu-icon.png in Resources */,
+				FBB30561198D639C006D7AB5 /* Default.png in Resources */,
+				FBB30564198DA12D006D7AB5 /* Icon-60@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,11 +390,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBE7DD5F19873D2D001EDF86 /* MenuViewController.swift in Sources */,
-				FBBBE64F198A78D30014A7DC /* Log.swift in Sources */,
+				FBD418F7198EF3B300B11E57 /* StringHelper.swift in Sources */,
+				FB9D9BE2198DD21400C8C90F /* LogFileDataService.swift in Sources */,
+				FBB30559198D2BF0006D7AB5 /* LocationHelper.swift in Sources */,
 				FBE7DD5A19873D2D001EDF86 /* AppDelegate.swift in Sources */,
+				FBD418F5198EF37800B11E57 /* UIHelper.swift in Sources */,
+				FBB30537198D203C006D7AB5 /* MapViewController.swift in Sources */,
+				FBB3053B198D217E006D7AB5 /* LogEntry.swift in Sources */,
+				FBD418EF198E937400B11E57 /* DateHelper.swift in Sources */,
 				FBBBE652198A78E20014A7DC /* arcturus.xcdatamodeld in Sources */,
-				FBBBE64D198A78B80014A7DC /* MapViewController.swift in Sources */,
+				FB9D9BE4198DD63700C8C90F /* SwiftyJSON.swift in Sources */,
+				FB9D9BE0198DCC9900C8C90F /* LogBookDataProtocol.swift in Sources */,
+				FBB30538198D203C006D7AB5 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +418,7 @@
 /* Begin PBXTargetDependency section */
 		FBE7DD6B19873D2D001EDF86 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FBE7DD5319873D2D001EDF86 /* arcturus */;
+			target = FBE7DD5319873D2D001EDF86 /* Arcturus */;
 			targetProxy = FBE7DD6A19873D2D001EDF86 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -423,11 +508,10 @@
 			baseConfigurationReference = 788BFC914A024885850A9728 /* Pods-arcturus.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = arcturus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Arcturus;
 				SWIFT_OBJC_BRIDGING_HEADER = "arcturus-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -438,11 +522,10 @@
 			baseConfigurationReference = 788BFC914A024885850A9728 /* Pods-arcturus.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = arcturus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Arcturus;
 				SWIFT_OBJC_BRIDGING_HEADER = "arcturus-Bridging-Header.h";
 			};
 			name = Release;
@@ -461,7 +544,7 @@
 				);
 				INFOPLIST_FILE = arcturusTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ArcturusTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
@@ -476,7 +559,7 @@
 				);
 				INFOPLIST_FILE = arcturusTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ArcturusTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
@@ -484,7 +567,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FBE7DD4F19873D2D001EDF86 /* Build configuration list for PBXProject "arcturus" */ = {
+		FBE7DD4F19873D2D001EDF86 /* Build configuration list for PBXProject "Arcturus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBE7DD7119873D2D001EDF86 /* Debug */,
@@ -493,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBE7DD7319873D2D001EDF86 /* Build configuration list for PBXNativeTarget "arcturus" */ = {
+		FBE7DD7319873D2D001EDF86 /* Build configuration list for PBXNativeTarget "Arcturus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBE7DD7419873D2D001EDF86 /* Debug */,
@@ -502,7 +585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBE7DD7619873D2D001EDF86 /* Build configuration list for PBXNativeTarget "arcturusTests" */ = {
+		FBE7DD7619873D2D001EDF86 /* Build configuration list for PBXNativeTarget "ArcturusTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBE7DD7719873D2D001EDF86 /* Debug */,

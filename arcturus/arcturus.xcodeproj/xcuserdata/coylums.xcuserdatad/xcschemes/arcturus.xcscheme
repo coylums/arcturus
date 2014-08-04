@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FBE7DD5319873D2D001EDF86"
-               BuildableName = "arcturus.app"
-               BlueprintName = "arcturus"
-               ReferencedContainer = "container:arcturus.xcodeproj">
+               BuildableName = "Arcturus.app"
+               BlueprintName = "Arcturus"
+               ReferencedContainer = "container:Arcturus.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FBE7DD6819873D2D001EDF86"
-               BuildableName = "arcturusTests.xctest"
-               BlueprintName = "arcturusTests"
-               ReferencedContainer = "container:arcturus.xcodeproj">
+               BuildableName = "ArcturusTests.xctest"
+               BlueprintName = "ArcturusTests"
+               ReferencedContainer = "container:Arcturus.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FBE7DD5319873D2D001EDF86"
-            BuildableName = "arcturus.app"
-            BlueprintName = "arcturus"
-            ReferencedContainer = "container:arcturus.xcodeproj">
+            BuildableName = "Arcturus.app"
+            BlueprintName = "Arcturus"
+            ReferencedContainer = "container:Arcturus.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FBE7DD5319873D2D001EDF86"
-            BuildableName = "arcturus.app"
-            BlueprintName = "arcturus"
-            ReferencedContainer = "container:arcturus.xcodeproj">
+            BuildableName = "Arcturus.app"
+            BlueprintName = "Arcturus"
+            ReferencedContainer = "container:Arcturus.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FBE7DD5319873D2D001EDF86"
-            BuildableName = "arcturus.app"
-            BlueprintName = "arcturus"
-            ReferencedContainer = "container:arcturus.xcodeproj">
+            BuildableName = "Arcturus.app"
+            BlueprintName = "Arcturus"
+            ReferencedContainer = "container:Arcturus.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
