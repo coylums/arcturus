@@ -21,6 +21,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
 
+        //Customize some UI
+        UINavigationBar.appearance().barTintColor = "#02545f"
+        UINavigationBar.appearance().tintColor = UIColor.whiteColor()
+
         // Setup mapViewController
 
         let mapViewController = MapViewController(nibName: nil, bundle: nil)
@@ -31,9 +35,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // TODO Create Menu/Settings for App
         let menuViewController = UIViewController(nibName: nil, bundle: nil)
 
+        let menuNavigationController = UINavigationController(rootViewController: menuViewController)
+
         menuViewController.view.backgroundColor = UIColor.blueColor()
 
-        let slidingPanelViewController = MSSlidingPanelController(centerViewController: mapNavigationController, andLeftPanelController: menuViewController)
+        let slidingPanelViewController = MSSlidingPanelController(centerViewController: mapNavigationController, andLeftPanelController: menuNavigationController)
 
         self.window!.rootViewController = slidingPanelViewController
 
